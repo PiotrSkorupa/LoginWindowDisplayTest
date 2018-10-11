@@ -1,6 +1,7 @@
 package com.williamhill.vegas.tests;
 
 import com.williamhill.vegas.pages.VegasPage;
+import com.williamhill.vegas.utils.PropertyReader;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,15 +16,16 @@ import static junit.framework.TestCase.assertTrue;
 public class DisplayLoginWindowTest {
 
     private String gameName = "Mayfair Roulette";
-    private final String BASE_URL = "https://vegas.williamhill.com/";
     private WebDriver driver;
     private VegasPage vegasPage;
+    private PropertyReader propertyReader;
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/test/java/com/williamhill/vegas/resources/chromedriver.exe");
+        propertyReader = new PropertyReader();
+        System.setProperty("webdriver.chrome.driver", propertyReader.readProperty("driverPath"));
         driver = new ChromeDriver();
-        driver.get(BASE_URL);
+        driver.get(propertyReader.readProperty("baseURL"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
     }
