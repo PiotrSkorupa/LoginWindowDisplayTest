@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
 
@@ -24,7 +25,9 @@ public class DisplayLoginWindowTest {
     public void setUp() {
         propertyReader = new PropertyReader();
         System.setProperty("webdriver.chrome.driver", propertyReader.readProperty("driverPath"));
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments(propertyReader.readProperty("iPhoneUserAgent"));
+        driver = new ChromeDriver(options);
         driver.get(propertyReader.readProperty("baseURL"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);

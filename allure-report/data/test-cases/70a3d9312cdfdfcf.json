@@ -1,0 +1,52 @@
+{
+  "uid" : "70a3d9312cdfdfcf",
+  "name" : "shouldDisplayLoginWindow",
+  "historyId" : "com.williamhill.vegas.tests.DisplayLoginWindowTest:com.williamhill.vegas.tests.DisplayLoginWindowTest#shouldDisplayLoginWindow",
+  "time" : {
+    "duration" : 21993
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a8c180023a85707",
+      "name" : "System out",
+      "source" : "8a8c180023a85707.txt",
+      "type" : "text/plain",
+      "size" : 355
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "com.williamhill.vegas.tests.DisplayLoginWindowTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.williamhill.vegas.tests.DisplayLoginWindowTest"
+  }, {
+    "name" : "package",
+    "value" : "com.williamhill.vegas.tests.DisplayLoginWindowTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70a3d9312cdfdfcf.json",
+  "parameterValues" : [ ]
+}

@@ -1,19 +1,19 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "com.williamhill.vegas.tests.DisplayLoginWindowTest",
     "children" : [ {
       "name" : "shouldDisplayLoginWindow",
-      "uid" : "38d40293024d2c94",
+      "uid" : "70a3d9312cdfdfcf",
       "parentUid" : "744e2a57161664d60c92e18b7236272d",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "duration" : 16194
+        "duration" : 21993
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "744e2a57161664d60c92e18b7236272d"
-  } ],
-  "name" : "suites"
+  } ]
 }

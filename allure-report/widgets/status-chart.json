@@ -1,9 +1,9 @@
 [ {
-  "uid" : "38d40293024d2c94",
+  "uid" : "70a3d9312cdfdfcf",
   "name" : "shouldDisplayLoginWindow",
   "time" : {
-    "duration" : 16194
+    "duration" : 21993
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]
