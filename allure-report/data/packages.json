@@ -1,0 +1,19 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.williamhill.vegas.tests.DisplayLoginWindowTest",
+    "children" : [ {
+      "name" : "shouldDisplayLoginWindow",
+      "uid" : "38d40293024d2c94",
+      "parentUid" : "573b076c8d96ea515d13eb41cb4cb05b",
+      "status" : "broken",
+      "time" : {
+        "duration" : 16194
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.williamhill.vegas.tests.DisplayLoginWindowTest"
+  } ],
+  "name" : "packages"
+}

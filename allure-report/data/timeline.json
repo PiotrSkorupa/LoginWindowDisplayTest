@@ -1,0 +1,15 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "shouldDisplayLoginWindow",
+    "uid" : "38d40293024d2c94",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "duration" : 16194
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}
