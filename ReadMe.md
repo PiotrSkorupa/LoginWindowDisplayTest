@@ -12,8 +12,7 @@ Full login window displayed vaildation
 
 
 ### Running the test
-Make sure your Chromedriver is in correct path.
-Use commands:
+Make sure your Chromedriver is in correct path and use commands:
 ```
 $ mvn clean test
 ```
