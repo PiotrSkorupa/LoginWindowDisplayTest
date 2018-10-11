@@ -1,4 +1,4 @@
-package com.williamhill.vegas;
+package com.williamhill.vegas.pages;
 
 import org.openqa.selenium.WebDriver;
 

@@ -1,5 +1,6 @@
-package com.williamhill.vegas;
+package com.williamhill.vegas.tests;
 
+import com.williamhill.vegas.pages.VegasPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
