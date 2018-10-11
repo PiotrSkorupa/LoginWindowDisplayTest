@@ -39,16 +39,19 @@ public class VegasPage extends BasePage {
     }
 
     public VegasPage clickMoreButton(WebDriver driver) {
+        wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOf(hoverOverTo));
         new Actions(driver)
                 .moveToElement(hoverOverTo)
                 .perform();
-        wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOf(moreButton));
         moreButton.click();
         return this;
     }
 
-    public VegasPage playGame() {
+    public VegasPage playGame(WebDriver driver) {
+        wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOf(playButton));
         playButton.click();
         return this;
     }
