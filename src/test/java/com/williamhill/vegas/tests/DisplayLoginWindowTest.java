@@ -21,13 +21,17 @@ public class DisplayLoginWindowTest {
     private VegasPage vegasPage;
     private LoginPage loginPage;
     private PropertyReader propertyReader;
+    public String browser;
 
     @Before
     public void setUp() {
         propertyReader = new PropertyReader();
         System.setProperty("webdriver.chrome.driver", propertyReader.readProperty("driverPath"));
+
         ChromeOptions options = new ChromeOptions();
-        options.addArguments(propertyReader.readProperty("chromeUserAgent"));
+        browser = propertyReader.readProperty("chromeUserAgent");
+        options.addArguments(browser);
+
         driver = new ChromeDriver(options);
         driver.get(propertyReader.readProperty("baseURL"));
         driver.manage().window().maximize();

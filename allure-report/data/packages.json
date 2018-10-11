@@ -5,11 +5,11 @@
     "name" : "com.williamhill.vegas.tests.DisplayLoginWindowTest",
     "children" : [ {
       "name" : "shouldDisplayLoginWindow",
-      "uid" : "70a3d9312cdfdfcf",
+      "uid" : "f0513dd56457f9b8",
       "parentUid" : "573b076c8d96ea515d13eb41cb4cb05b",
       "status" : "passed",
       "time" : {
-        "duration" : 21993
+        "duration" : 23297
       },
       "flaky" : false,
       "parameters" : [ ]

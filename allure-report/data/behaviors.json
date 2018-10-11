@@ -3,11 +3,11 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "shouldDisplayLoginWindow",
-    "uid" : "70a3d9312cdfdfcf",
+    "uid" : "f0513dd56457f9b8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "duration" : 21993
+      "duration" : 23297
     },
     "flaky" : false,
     "parameters" : [ ]

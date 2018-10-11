@@ -18,13 +18,13 @@ public class VegasPage extends BasePage {
     @FindBy(css = ".cHTTOm")
     private WebElement searchBox;
 
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div[3]/section/div/div/div[1]/div/div/div/div[3]/div/button[2]")
+    @FindBy(xpath = "//div[contains(text(), 'More')]")
     private WebElement moreButton;
 
-    @FindBy(xpath = "//div[contains(text(), 'Play now')]")
+    @FindBy(xpath = "//div[contains(text(), 'Play')]")
     private WebElement playButton;
 
-    @FindBy(xpath = "/html/body/div[3]/div/div/div[2]/div[3]/div/div/div[3]/section/div/div/div[1]/div/div/div/div[1]/div/img")
+    @FindBy(xpath = "//img[@class='tile-cover__image']")
     private WebElement hoverOverTo;
 
     public VegasPage(WebDriver driver) {

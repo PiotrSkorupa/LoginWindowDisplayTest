@@ -1,9 +1,9 @@
 {
-  "uid" : "70a3d9312cdfdfcf",
+  "uid" : "f0513dd56457f9b8",
   "name" : "shouldDisplayLoginWindow",
   "historyId" : "com.williamhill.vegas.tests.DisplayLoginWindowTest:com.williamhill.vegas.tests.DisplayLoginWindowTest#shouldDisplayLoginWindow",
   "time" : {
-    "duration" : 21993
+    "duration" : 23297
   },
   "status" : "passed",
   "flaky" : false,
@@ -11,17 +11,17 @@
   "testStage" : {
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8a8c180023a85707",
+      "uid" : "6f99bc67ef20a501",
       "name" : "System out",
-      "source" : "8a8c180023a85707.txt",
+      "source" : "6f99bc67ef20a501.txt",
       "type" : "text/plain",
       "size" : 355
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : true,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -47,6 +47,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "70a3d9312cdfdfcf.json",
+  "source" : "f0513dd56457f9b8.json",
   "parameterValues" : [ ]
 }

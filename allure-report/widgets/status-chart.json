@@ -1,8 +1,8 @@
 [ {
-  "uid" : "70a3d9312cdfdfcf",
+  "uid" : "f0513dd56457f9b8",
   "name" : "shouldDisplayLoginWindow",
   "time" : {
-    "duration" : 21993
+    "duration" : 23297
   },
   "status" : "passed",
   "severity" : "normal"
